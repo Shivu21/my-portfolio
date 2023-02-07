@@ -1,0 +1,120 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    color:antiquewhite;
+    padding: 0;
+    margin: 0 5%;
+}
+@media (max-width: 700px) {
+    .header1{
+        display: none;
+    }
+    .my-data{
+        padding: 2rem;
+    }
+
+    
+}
+@media (min-width: 700px) {
+   .header2{
+    display: none;
+   }
+   .my-data{
+    padding: 8rem;
+}
+
+    
+}
+
+a{
+    text-decoration: none;
+    color: antiquewhite;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.header1{
+    position: relative;
+   
+    width: 100%;
+    left: 0;
+    top: 0;
+}
+.header1 ul{
+    display: flex;
+    justify-content: space-around;
+    gap: 2.5%;
+    flex-wrap: nowrap;
+}
+.header1 li, .header2 li{
+    list-style-type: none;
+    padding: 5px;
+    flex: 1 1 0;    
+    text-transform: uppercase;
+    font-size: 25px;    
+}
+.header1 ul :first-child{
+    flex: 1 1 60%;
+}
+.header2{
+    position: relative;
+    
+    width: 100%;
+    left: 0;
+    top: 0;
+}
+.header2 ul{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+.my-data{
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+.my-data h2{
+    color: rgb(9, 131, 19);
+    font-weight: 500;
+    font-size: 25px;
+    margin: 0;
+}
+.my-data p{
+    padding:  2rem;
+    font-size: 20px;
+}
+.my-data li{
+    font-size: 20px;
+    list-style-type: none;
+    line-height: 35px;
+}
+a:hover{
+    color: rgb(9, 131, 19); 
+}
+
+
+footer li{
+    color: rgb(9, 131, 19); 
+    font-size: 50px;
+    list-style: none;
+    
+}
+footer li a:hover{
+    color: antiquewhite;
+}
+footer ul{
+    width: 100%;
+
+    display: flex;
+    gap: 10%;
+    justify-content: center;
+    padding: 5%;
+}
+footer li a{
+    color: rgb(9, 131, 19);    
+}
+footer p{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+    margin: 0;
+}
